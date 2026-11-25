@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Remote TV AC Free | Okto Latuperissa</title>
+  <meta name="description" content="Kebijakan Privasi Resmi aplikasi Remote TV AC Free (com.omniremote.universal) oleh Okto Latuperissa." />
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #060913;
+      --bg-card: rgba(16, 23, 42, 0.72);
+      --border-glow: rgba(56, 189, 248, 0.25);
+      --accent-cyan: #38bdf8;
+      --accent-purple: #a855f7;
+      --accent-emerald: #10b981;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.14) 0%, transparent 40%),
+        radial-gradient(circle at 85% 25%, rgba(168, 85, 247, 0.14) 0%, transparent 45%),
+        radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
+      color: var(--text-primary);
+      line-height: 1.75;
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Header & Hero */
+    header {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-glow);
+      border-radius: 24px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      margin-bottom: 2rem;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple), var(--accent-emerald));
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent-cyan);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 1.2rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent-emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent-emerald);
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.65rem, 4vw, 2.4rem);
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 20%, #38bdf8 65%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      max-width: 650px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+
+    .meta-pill {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      padding: 6px 14px;
+      border-radius: 12px;
+    }
+
+    .meta-pill strong {
+      color: var(--text-primary);
+    }
+
+    /* Language Switcher */
+    .lang-switch {
+      display: inline-flex;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 12px;
+      padding: 4px;
+      gap: 4px;
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .lang-btn.active {
+      background: linear-gradient(135deg, var(--accent-cyan), #2563eb);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(56, 189, 248, 0.35);
+    }
+
+    /* Content Sections */
+    .card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      transition: border-color 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(56, 189, 248, 0.35);
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15rem;
+      color: var(--accent-cyan);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 span.num {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent-cyan);
+      font-size: 0.85rem;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      color: #cbd5e1;
+      margin-bottom: 1rem;
+      font-size: 0.96rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Feature & Permission Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .grid-item {
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 14px;
+      padding: 1.2rem;
+    }
+
+    .grid-item h3 {
+      font-size: 0.95rem;
+      color: #f1f5f9;
+      margin-bottom: 0.45rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .grid-item p {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    ul.clean-list {
+      list-style: none;
+      margin-top: 0.75rem;
+    }
+
+    ul.clean-list li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.65rem;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+
+    ul.clean-list li::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      color: var(--accent-purple);
+      font-size: 0.85rem;
+    }
+
+    a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(56, 189, 248, 0.5);
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #7dd3fc;
+      border-bottom-style: solid;
+    }
+
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border-left: 3px solid var(--accent-emerald);
+      padding: 1rem 1.25rem;
+      border-radius: 0 12px 12px 0;
+      margin: 1rem 0;
+      font-size: 0.92rem;
+      color: #d1fae5;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(148, 163, 184, 0.15);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .dev-credit {
+      color: var(--text-secondary);
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    /* Language Toggle Logic */
+    [data-lang="en"] {
+      display: none;
+    }
+
+    body.lang-en [data-lang="id"] {
+      display: none;
+    }
+
+    body.lang-en [data-lang="en"] {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <div class="badge">
+        <span class="dot"></span>
+        <span>Official Privacy Policy</span>
+      </div>
+      <h1>REMOTE TV AC FREE</h1>
+      <p class="subtitle" data-lang="id">
+        Aplikasi Super All-in-One futuristik yang menggabungkan Remote Universal dengan 208+ Alat Pintar, Pembaca NFC, Studio Musik, Ensiklopedia Offline, dan Mini Game Asah Otak.
+      </p>
+      <p class="subtitle" data-lang="en">
+        Futuristic Super All-in-One app combining Universal Remote Control with 208+ Smart Tools, NFC Reader, Music Studio, Offline Encyclopedia, and Brain Mini-Games.
+      </p>
+
+      <div class="meta-bar">
+        <div class="meta-pill">Package: <strong>com.omniremote.universal</strong></div>
+        <div class="meta-pill">Developer: <strong>Okto Latuperissa</strong></div>
+        <div class="meta-pill">Effective: <strong>25 Nov 2026</strong></div>
+      </div>
+
+      <div class="lang-switch" role="group" aria-label="Language Switcher">
+        <button class="lang-btn active" id="btn-id" onclick="setLang('id')">Bahasa Indonesia</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')">English (Play Store)</button>
+      </div>
+    </header>
+
+    <!-- INDONESIAN CONTENT -->
+    <main data-lang="id">
+      <section class="card">
+        <h2><span class="num">1</span> Pendahuluan & Komitmen Privasi</h2>
+        <p>
+          <strong>Okto Latuperissa</strong> membangun aplikasi <strong>Remote TV AC Free</strong> (<code>com.omniremote.universal</code>) sebagai aplikasi utilitas gratis yang didukung oleh iklan. Halaman ini menjelaskan kebijakan kami mengenai pengumpulan, penggunaan, dan perlindungan data saat Anda menggunakan layanan kami.
+        </p>
+        <div class="highlight-box">
+          <strong>Prinsip Utama Kami:</strong> Kami tidak mewajibkan pendaftaran akun, login email, maupun pengumpulan data identitas pribadi (seperti nama, alamat rumah, atau nomor telepon) untuk menggunakan seluruh fitur aplikasi.
+        </div>
+      </section>
+
+      <section class="card">
+        <h2><span class="num">2</span> Pemrosesan Perangkat & Izin Fitur (On-Device)</h2>
+        <p>
