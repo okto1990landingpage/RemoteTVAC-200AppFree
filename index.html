@@ -1,357 +1,351 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Remote TV AC Free | Okto Latuperissa</title>
-  <meta name="description" content="Kebijakan Privasi Resmi aplikasi Remote TV AC Free (com.omniremote.universal) oleh Okto Latuperissa." />
-  <link rel="preconnect" href="https://googleapis.com">
-  <link rel="preconnect" href="https://gstatic.com" crossorigin>
-  <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-dark: #060913;
-      --bg-card: rgba(16, 23, 42, 0.72);
-      --border-glow: rgba(56, 189, 248, 0.25);
-      --accent-cyan: #38bdf8;
-      --accent-purple: #a855f7;
-      --accent-emerald: #10b981;
-      --text-primary: #f8fafc;
-      --text-secondary: #94a3b8;
-      --text-muted: #64748b;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Remote TV AC Free (com.omniremote.universal)</title>
+    <style>
+        :root {
+            --bg-void: #070312;
+            --bg-nebula: #160733;
+            --card-glass: rgba(28, 13, 58, 0.78);
+            --border-glow: rgba(192, 132, 252, 0.38);
+            --accent-lavender: #f5d0fe;
+            --accent-violet: #a855f7;
+            --accent-peach: #ffb894;
+            --accent-emerald: #34d399;
+            --text-primary: #fbf8ff;
+            --text-secondary: #d0c2f2;
+            --text-muted: #9b89c9;
+        }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      background-color: var(--bg-dark);
-      background-image: 
-        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.14) 0%, transparent 40%),
-        radial-gradient(circle at 85% 25%, rgba(168, 85, 247, 0.14) 0%, transparent 45%),
-        radial-gradient(circle at 50% 90%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
-      color: var(--text-primary);
-      line-height: 1.75;
-      min-height: 100vh;
-      padding: 2rem 1rem 4rem;
-    }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+            background: radial-gradient(circle at 20% 15%, #2b0f5c 0%, var(--bg-nebula) 38%, var(--bg-void) 100%);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 32px 16px 64px;
+        }
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+        .container {
+            max-width: 880px;
+            margin: 0 auto;
+        }
 
-    /* Header & Hero */
-    header {
-      background: var(--bg-card);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid var(--border-glow);
-      border-radius: 24px;
-      padding: 2.5rem 2rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-      margin-bottom: 2rem;
-    }
+        .hero {
+            background: linear-gradient(135deg, rgba(45, 20, 92, 0.88), rgba(20, 8, 44, 0.92));
+            border: 1px solid var(--border-glow);
+            border-radius: 24px;
+            padding: 32px 28px;
+            margin-bottom: 24px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 40px rgba(168, 85, 247, 0.16);
+        }
 
-    header::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple), var(--accent-emerald));
-    }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--accent-peach), var(--accent-lavender));
+            color: #16072c;
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 999px;
+            margin-bottom: 14px;
+        }
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: rgba(56, 189, 248, 0.12);
-      border: 1px solid rgba(56, 189, 248, 0.35);
-      color: var(--accent-cyan);
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 999px;
-      margin-bottom: 1.2rem;
-    }
+        h1 {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -0.4px;
+            margin-bottom: 8px;
+        }
 
-    .dot {
-      width: 8px;
-      height: 8px;
-      background: var(--accent-emerald);
-      border-radius: 50%;
-      box-shadow: 0 0 10px var(--accent-emerald);
-    }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
 
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: clamp(1.65rem, 4vw, 2.4rem);
-      font-weight: 800;
-      background: linear-gradient(135deg, #ffffff 20%, #38bdf8 65%, #c084fc 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 0.5rem;
-    }
+        .meta strong {
+            color: var(--accent-peach);
+        }
 
-    .subtitle {
-      color: var(--text-secondary);
-      font-size: 1rem;
-      max-width: 650px;
-      margin: 0 auto 1.5rem;
-    }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            margin-top: 18px;
+            flex-wrap: wrap;
+        }
 
-    .meta-bar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.75rem;
-      font-size: 0.85rem;
-      color: var(--text-secondary);
-      margin-bottom: 1.5rem;
-    }
+        .lang-btn {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid var(--border-glow);
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
 
-    .meta-pill {
-      background: rgba(15, 23, 42, 0.8);
-      border: 1px solid rgba(148, 163, 184, 0.2);
-      padding: 6px 14px;
-      border-radius: 12px;
-    }
+        .lang-btn:hover {
+            background: rgba(168, 85, 247, 0.28);
+            border-color: var(--accent-peach);
+        }
 
-    .meta-pill strong {
-      color: var(--text-primary);
-    }
+        .card {
+            background: var(--card-glass);
+            border: 1px solid var(--border-glow);
+            border-radius: 20px;
+            padding: 26px 28px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(14px);
+        }
 
-    /* Language Switcher */
-    .lang-switch {
-      display: inline-flex;
-      background: rgba(15, 23, 42, 0.9);
-      border: 1px solid rgba(56, 189, 248, 0.3);
-      border-radius: 12px;
-      padding: 4px;
-      gap: 4px;
-    }
+        h2 {
+            color: var(--accent-lavender);
+            font-size: 19px;
+            font-weight: 800;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-    .lang-btn {
-      background: transparent;
-      border: none;
-      color: var(--text-secondary);
-      padding: 8px 18px;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: all 0.25s ease;
-    }
+        h2::before {
+            content: "◆";
+            color: var(--accent-peach);
+            font-size: 14px;
+        }
 
-    .lang-btn.active {
-      background: linear-gradient(135deg, var(--accent-cyan), #2563eb);
-      color: #ffffff;
-      box-shadow: 0 4px 15px rgba(56, 189, 248, 0.35);
-    }
+        h3 {
+            color: var(--accent-peach);
+            font-size: 15px;
+            font-weight: 700;
+            margin: 14px 0 6px;
+        }
 
-    /* Content Sections */
-    .card {
-      background: var(--bg-card);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border: 1px solid rgba(148, 163, 184, 0.14);
-      border-radius: 20px;
-      padding: 2rem;
-      margin-bottom: 1.5rem;
-      transition: border-color 0.3s ease;
-    }
+        p {
+            color: var(--text-secondary);
+            font-size: 14.5px;
+            margin-bottom: 10px;
+        }
 
-    .card:hover {
-      border-color: rgba(56, 189, 248, 0.35);
-    }
+        ul {
+            margin: 8px 0 12px 20px;
+            color: var(--text-secondary);
+            font-size: 14.5px;
+        }
 
-    h2 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.15rem;
-      color: var(--accent-cyan);
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+        li {
+            margin-bottom: 8px;
+        }
 
-    h2 span.num {
-      background: rgba(56, 189, 248, 0.15);
-      border: 1px solid rgba(56, 189, 248, 0.35);
-      color: var(--accent-cyan);
-      font-size: 0.85rem;
-      width: 28px;
-      height: 28px;
-      border-radius: 8px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
+        li strong {
+            color: var(--text-primary);
+        }
 
-    p {
-      color: #cbd5e1;
-      margin-bottom: 1rem;
-      font-size: 0.96rem;
-    }
+        a {
+            color: var(--accent-peach);
+            text-decoration: underline;
+        }
 
-    p:last-child {
-      margin-bottom: 0;
-    }
+        code {
+            background: rgba(255, 255, 255, 0.09);
+            color: var(--accent-lavender);
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-size: 13px;
+        }
 
-    /* Feature & Permission Grid */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1rem;
-      margin-top: 1rem;
-    }
+        .divider {
+            border: 0;
+            border-top: 1px solid var(--border-glow);
+            margin: 36px 0;
+        }
 
-    .grid-item {
-      background: rgba(15, 23, 42, 0.65);
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      border-radius: 14px;
-      padding: 1.2rem;
-    }
+        .highlight-box {
+            background: rgba(52, 211, 153, 0.1);
+            border: 1px solid rgba(52, 211, 153, 0.45);
+            border-radius: 14px;
+            padding: 14px 16px;
+            margin-top: 10px;
+            color: var(--text-primary);
+            font-size: 13.5px;
+        }
 
-    .grid-item h3 {
-      font-size: 0.95rem;
-      color: #f1f5f9;
-      margin-bottom: 0.45rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+            margin-top: 28px;
+        }
 
-    .grid-item p {
-      font-size: 0.88rem;
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
-
-    ul.clean-list {
-      list-style: none;
-      margin-top: 0.75rem;
-    }
-
-    ul.clean-list li {
-      position: relative;
-      padding-left: 1.5rem;
-      margin-bottom: 0.65rem;
-      color: #cbd5e1;
-      font-size: 0.95rem;
-    }
-
-    ul.clean-list li::before {
-      content: "✦";
-      position: absolute;
-      left: 0;
-      color: var(--accent-purple);
-      font-size: 0.85rem;
-    }
-
-    a {
-      color: var(--accent-cyan);
-      text-decoration: none;
-      border-bottom: 1px dashed rgba(56, 189, 248, 0.5);
-      transition: color 0.2s;
-    }
-
-    a:hover {
-      color: #7dd3fc;
-      border-bottom-style: solid;
-    }
-
-    .highlight-box {
-      background: rgba(16, 185, 129, 0.08);
-      border-left: 3px solid var(--accent-emerald);
-      padding: 1rem 1.25rem;
-      border-radius: 0 12px 12px 0;
-      margin: 1rem 0;
-      font-size: 0.92rem;
-      color: #d1fae5;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      margin-top: 2.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid rgba(148, 163, 184, 0.15);
-      color: var(--text-muted);
-      font-size: 0.85rem;
-    }
-
-    .dev-credit {
-      color: var(--text-secondary);
-      font-weight: 600;
-      margin-bottom: 0.4rem;
-    }
-
-    /* Language Toggle Logic */
-    [data-lang="en"] {
-      display: none;
-    }
-
-    body.lang-en [data-lang="id"] {
-      display: none;
-    }
-
-    body.lang-en [data-lang="en"] {
-      display: block;
-    }
-  </style>
+        @media (max-width: 600px) {
+            .hero, .card {
+                padding: 20px 18px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
+<div class="container">
+
     <!-- HEADER -->
-    <header>
-      <div class="badge">
-        <span class="dot"></span>
-        <span>Official Privacy Policy</span>
-      </div>
-      <h1>REMOTE TV AC FREE</h1>
-      <p class="subtitle" data-lang="id">
-        Aplikasi Super All-in-One futuristik yang menggabungkan Remote Universal dengan 208+ Alat Pintar, Pembaca NFC, Studio Musik, Ensiklopedia Offline, dan Mini Game Asah Otak.
-      </p>
-      <p class="subtitle" data-lang="en">
-        Futuristic Super All-in-One app combining Universal Remote Control with 208+ Smart Tools, NFC Reader, Music Studio, Offline Encyclopedia, and Brain Mini-Games.
-      </p>
-
-      <div class="meta-bar">
-        <div class="meta-pill">Package: <strong>com.omniremote.universal</strong></div>
-        <div class="meta-pill">Developer: <strong>Okto Latuperissa</strong></div>
-        <div class="meta-pill">Effective: <strong>25 Nov 2026</strong></div>
-      </div>
-
-      <div class="lang-switch" role="group" aria-label="Language Switcher">
-        <button class="lang-btn active" id="btn-id" onclick="setLang('id')">Bahasa Indonesia</button>
-        <button class="lang-btn" id="btn-en" onclick="setLang('en')">English (Play Store)</button>
-      </div>
+    <header class="hero">
+        <span class="badge">Official Google Play Privacy Policy</span>
+        <h1>Privacy Policy / Kebijakan Privasi</h1>
+        <p class="meta">
+            Application: <strong>Remote TV AC Free</strong> (<code>com.omniremote.universal</code>)<br />
+            Developer: <strong>Okto Latuperissa</strong> &bull; Effective Date: <strong>November 26, 2026</strong>
+        </p>
+        <div class="lang-switch">
+            <a class="lang-btn" href="#english">🇺🇸 English Version</a>
+            <a class="lang-btn" href="#indonesia">🇮🇩 Versi Bahasa Indonesia</a>
+        </div>
     </header>
 
-    <!-- INDONESIAN CONTENT -->
-    <main data-lang="id">
-      <section class="card">
-        <h2><span class="num">1</span> Pendahuluan & Komitmen Privasi</h2>
-        <p>
-          <strong>Okto Latuperissa</strong> membangun aplikasi <strong>Remote TV AC Free</strong> (<code>com.omniremote.universal</code>) sebagai aplikasi utilitas gratis yang didukung oleh iklan. Halaman ini menjelaskan kebijakan kami mengenai pengumpulan, penggunaan, dan perlindungan data saat Anda menggunakan layanan kami.
-        </p>
-        <div class="highlight-box">
-          <strong>Prinsip Utama Kami:</strong> Kami tidak mewajibkan pendaftaran akun, login email, maupun pengumpulan data identitas pribadi (seperti nama, alamat rumah, atau nomor telepon) untuk menggunakan seluruh fitur aplikasi.
+    <!-- ==================== ENGLISH VERSION (FOR GOOGLE PLAY GLOBAL REVIEW) ==================== -->
+    <section id="english">
+        <div class="card">
+            <h2>1. Overview & Commitment to Privacy</h2>
+            <p>
+                <strong>Okto Latuperissa</strong> ("Developer", "we", "our", or "us") built the <strong>Remote TV AC Free</strong> application
+                (Package ID: <code>com.omniremote.universal</code>) as an ad-supported All-in-One Universal Remote &amp; Multi-Tool utility app.
+                This service is provided at no cost and is intended for use as is.
+            </p>
+            <div class="highlight-box">
+                <strong>Core Privacy Principle:</strong> We do <strong>NOT</strong> operate any proprietary cloud user-tracking database,
+                do <strong>NOT</strong> require user registration or login accounts, and do <strong>NOT</strong> upload your camera feed,
+                microphone audio, NFC card data, notes, or local home device list to our servers. All utility tools execute locally on your Android device.
+            </div>
         </div>
-      </section>
 
-      <section class="card">
-        <h2><span class="num">2</span> Pemrosesan Perangkat & Izin Fitur (On-Device)</h2>
-        <p>
+        <div class="card">
+            <h2>2. Device Permissions & On-Device Processing</h2>
+            <p>To deliver Universal Remote, NFC Reader, Sensor, Camera, and Audio Studio utilities, the app requests certain optional hardware permissions strictly when needed:</p>
+            <ul>
+                <li><strong>Infrared Transmitter (<code>TRANSMIT_IR</code>):</strong> Used locally to emit 38kHz–56kHz infrared remote control signals to TVs, Air Conditioners, and Projectors.</li>
+                <li><strong>Local Wi-Fi &amp; Bluetooth Discovery (<code>NEARBY_WIFI_DEVICES</code>, <code>BLUETOOTH_SCAN</code>, <code>BLUETOOTH_CONNECT</code>, <code>ACCESS_WIFI_STATE</code>):</strong> Used strictly on your local network to discover and send remote commands to Smart TVs, Smart Bulbs, and Bluetooth HID devices. We never collect or transmit your Wi-Fi passwords or device list externally.</li>
+                <li><strong>Location (<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>):</strong> Required by older Android versions (Android 6–11) for local BLE/Wi-Fi scanning and used locally on-device to display real-time speed (km/h) in the GPS HUD Speedometer tool. Your GPS coordinates are never stored on or sent to our servers.</li>
+                <li><strong>NFC Reader (<code>NFC</code>):</strong> Used locally when you tap a physical contactless smartcard/e-Toll card to inspect public card balance/UID metadata on screen. Scan history is stored exclusively inside your phone's local storage and can be deleted anytime with one tap.</li>
+                <li><strong>Camera (<code>CAMERA</code>):</strong> Used strictly in real time on your device screen for the Digital Magnifier, HD Makeup Mirror, Live RGB Color Picker, and Framing Grid tools. No photos or videos are recorded, saved externally, or uploaded anywhere.</li>
+                <li><strong>Microphone (<code>RECORD_AUDIO</code>):</strong> Used strictly in volatile device RAM for the Acoustic Decibel (dB) Meter, Vocal Pitch Tuner, and temporary 4-second RAM Voice Changer playback. Audio is never saved permanently or transmitted off your device.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Advertising, Google AdMob & Advertising ID</h2>
+            <p>
+                Remote TV AC Free displays advertisements (Banner Ads, Native Advanced Ads, and Rewarded Ads) provided by <strong>Google AdMob (Google Mobile Ads SDK)</strong>
+                to keep all 208+ features free for users. Where required by law (including EEA/UK GDPR), we use the <strong>Google User Messaging Platform (UMP)</strong> to gather user consent prior to serving personalized ads.
+            </p>
+            <p>Google AdMob may automatically collect and process certain non-personally-identifiable technical data, including:</p>
+            <ul>
+                <li><strong>Google Advertising ID (<code>com.google.android.gms.permission.AD_ID</code>):</strong> Used for ad delivery, frequency capping, rewarded unlock verification, analytics, and fraud/abuse prevention. You may reset or delete your Advertising ID at any time in your Android Settings (<em>Settings &rarr; Google &rarr; Ads</em>).</li>
+                <li><strong>Device &amp; Network Diagnostics:</strong> Approximate IP-based region, device model, OS version, screen dimensions, ad impression/click events, and crash diagnostics transmitted over encrypted HTTPS/TLS connections.</li>
+            </ul>
+            <p>
+                Please review Google's official privacy documentation to learn how Google handles data from partner apps:<br />
+                &bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a><br />
+                &bull; <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising Technologies</a>
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>4. Local Data Storage, Retention & Deletion</h2>
+            <p>
+                Any saved remotes, pinned tools, quick notes, cashflow entries, or NFC card history you create are stored strictly locally on your own device via Android <code>SharedPreferences</code> / offline SQLite databases.
+            </p>
+            <p>
+                <strong>How to Delete Your Data:</strong> Because no personal data is stored on external developer servers, you have 100% immediate control. You can delete individual saved remotes/NFC cards directly inside the app, clear Application Storage in Android Settings, or uninstall the app to permanently erase all local data.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>5. Children's Privacy</h2>
+            <p>
+                This application is designed for general audiences aged 13 and older. We do not knowingly target or collect personally identifiable information from children under the age of 13.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>6. Changes to This Policy & Contact Us</h2>
+            <p>
+                We may update this Privacy Policy periodically to reflect new features or regulatory requirements. Any updates will be posted on this page with an updated Effective Date.
+            </p>
+            <p>
+                If you have questions or requests regarding this Privacy Policy, please contact the Developer:<br />
+                <strong>Developer:</strong> Okto Latuperissa<br />
+                <strong>Official Creator Channel:</strong> <a href="https://www.tiktok.com/@depoknightride69" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@depoknightride69</a>
+            </p>
+        </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ==================== VERSI BAHASA INDONESIA ==================== -->
+    <section id="indonesia">
+        <div class="card">
+            <h2>1. Ringkasan & Komitmen Privasi</h2>
+            <p>
+                <strong>Okto Latuperissa</strong> ("Pengembang" atau "Kami") mengembangkan aplikasi <strong>Remote TV AC Free</strong>
+                (Package ID: <code>com.omniremote.universal</code>) sebagai aplikasi gratis berpendukung iklan yang menggabungkan Remote Universal dan 208+ Alat Pintar All-in-One.
+            </p>
+            <div class="highlight-box">
+                <strong>Jaminan Privasi Utama:</strong> Aplikasi ini <strong>TIDAK</strong> mewajibkan pendaftaran akun/login dan <strong>TIDAK</strong> pernah mengunggah gambar kamera, rekaman suara mikrofon, nomor kartu e-Toll NFC, catatan pribadi, maupun daftar perangkat rumah Anda ke server kami. Seluruh pemrosesan alat berjalan 100% secara lokal di dalam perangkat Android Anda.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>2. Penggunaan Izin Perangkat (Permissions)</h2>
+            <ul>
+                <li><strong>Inframerah (<code>TRANSMIT_IR</code>):</strong> Memancarkan sinyal remote inframerah langsung dari sensor HP ke TV, AC, dan Proyektor.</li>
+                <li><strong>Wi-Fi Lokal &amp; Bluetooth (<code>NEARBY_WIFI_DEVICES</code>, <code>BLUETOOTH_SCAN</code>, <code>BLUETOOTH_CONNECT</code>):</strong> Memindai dan mengontrol Smart TV / perangkat pintar di jaringan rumah lokal Anda.</li>
+                <li><strong>Lokasi GPS (<code>ACCESS_FINE_LOCATION</code>):</strong> Digunakan secara lokal di perangkat untuk menghitung kecepatan km/jam pada fitur Speedometer GPS HUD serta pemindaian perangkat lokal pada Android versi lama. Titik lokasi Anda tidak pernah dikirim ke server kami.</li>
+                <li><strong>NFC (<code>NFC</code>):</strong> Membaca informasi publik saldo/UID kartu elektronik e-Toll saat kartu ditempelkan ke HP Anda. Riwayat kartu tersimpan lokal di HP Anda dan dapat dihapus kapan saja.</li>
+                <li><strong>Kamera (<code>CAMERA</code>):</strong> Digunakan murni secara langsung di layar untuk fitur Kaca Pembesar Digital, Cermin Rias HD, Detektor Warna RGB, dan Grid Foto tanpa merekam atau mengunggah foto/video.</li>
+                <li><strong>Mikrofon (<code>RECORD_AUDIO</code>):</strong> Digunakan sementara di memori RAM perangkat untuk fitur Pengukur Kebisingan Desibel (dB), Detektor Nada Vokal, dan Pengubah Suara instan tanpa disimpan permanen atau dikirim ke internet.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Layanan Iklan Pihak Ketiga (Google AdMob)</h2>
+            <p>
+                Aplikasi ini menayangkan iklan melalui <strong>Google AdMob</strong> agar seluruh fitur dapat dinikmati secara gratis. SDK Google AdMob dapat memproses ID Iklan Android (<code>AD_ID</code>), estimasi lokasi kasar berbasis IP, serta data performa penayangan iklan melalui koneksi terenkripsi HTTPS sesuai
+                <a href="https://policies.google.com/privacy?hl=id" target="_blank" rel="noopener noreferrer">Kebijakan Privasi Google</a>.
+                Anda dapat mengatur ulang atau menghapus ID Iklan kapan saja melalui menu <em>Pengaturan Android &rarr; Google &rarr; Iklan</em>.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>4. Penghapusan Data & Kontak Pengembang</h2>
+            <p>
+                Seluruh catatan, daftar remote tersimpan, dan riwayat NFC disimpan di memori internal aplikasi pada HP Anda. Anda dapat menghapusnya kapan saja langsung di dalam aplikasi, melalui menu <em>Hapus Data Aplikasi</em> di Pengaturan Android, atau dengan mencopot pemasangan (<em>uninstall</em>) aplikasi.
+            </p>
+            <p>
+                <strong>Pengembang:</strong> Okto Latuperissa<br />
+                <strong>Kanal Resmi:</strong> <a href="https://www.tiktok.com/@depoknightride69" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@depoknightride69</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Okto Latuperissa &bull; Remote TV AC Free (<code>com.omniremote.universal</code>). All rights reserved.
+    </footer>
+
+</div>
+</body>
+</html>
